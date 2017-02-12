@@ -1,6 +1,7 @@
 package com.crashhermit.tutorialmod.proxy;
 
 import com.crashhermit.tutorialmod.TutorialMod;
+import com.crashhermit.tutorialmod.block.ModBlocks;
 import com.crashhermit.tutorialmod.item.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -29,6 +30,7 @@ public class ClientProxy extends CommonProxy
     @Override
     public void init(FMLInitializationEvent event) {
         ModItems.registerRenders();
+        ModBlocks.registerRenders();
     }
 
     @Override

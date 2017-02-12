@@ -1,5 +1,6 @@
 package com.crashhermit.tutorialmod;
 
+import com.crashhermit.tutorialmod.block.ModBlocks;
 import com.crashhermit.tutorialmod.item.ModItems;
 import com.crashhermit.tutorialmod.proxy.CommonProxy;
 import com.crashhermit.tutorialmod.tab.CreativeTabTutorial;
@@ -31,6 +32,7 @@ public class TutorialMod
     public void preInit(FMLPreInitializationEvent event) {
         tabTutorial = new CreativeTabTutorial(CreativeTabs.getNextID(), "tab_tutorial");
         ModItems.preInit();
+        ModBlocks.preInit();
         proxy.preInit(event);
     }
     
