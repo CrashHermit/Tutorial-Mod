@@ -1,24 +1,116 @@
-[10:43:15] [Client thread/INFO]: Setting user: Player530
-[10:43:24] [Client thread/WARN]: Skipping bad option: lastServer:
-[10:43:24] [Client thread/INFO]: LWJGL Version: 2.9.4
-[10:43:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tutorial Mod
-[10:43:36] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:43:37] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[10:43:37] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:43:37] [Thread-7/INFO]: OpenAL initialized.
-[10:43:37] [Sound Library Loader/INFO]: Sound engine started
-[10:43:42] [Client thread/INFO]: Created: 16x16 textures-atlas
-[10:43:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tutorial Mod
-[10:43:45] [Client thread/INFO]: SoundSystem shutting down...
-[10:43:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[10:43:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:43:46] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[10:43:46] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:43:46] [Thread-9/INFO]: OpenAL initialized.
-[10:43:46] [Sound Library Loader/INFO]: Sound engine started
-[10:43:48] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:43:50] [Client thread/WARN]: Skipping bad option: lastServer:
-[10:43:52] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[10:43:54] [Client thread/INFO]: Stopping!
-[10:43:54] [Client thread/INFO]: SoundSystem shutting down...
-[10:43:54] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:07:58] [Client thread/INFO]: Setting user: Player82
+[14:08:03] [Client thread/WARN]: Skipping bad option: lastServer:
+[14:08:03] [Client thread/INFO]: LWJGL Version: 2.9.4
+[14:08:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tutorial Mod
+[14:08:09] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:08:09] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[14:08:09] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:08:09] [Thread-7/INFO]: OpenAL initialized.
+[14:08:09] [Sound Library Loader/INFO]: Sound engine started
+[14:08:13] [Client thread/INFO]: Created: 16x16 textures-atlas
+[14:08:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tutorial Mod
+[14:08:17] [Client thread/INFO]: SoundSystem shutting down...
+[14:08:17] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:08:17] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:08:17] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[14:08:17] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:08:17] [Thread-9/INFO]: OpenAL initialized.
+[14:08:17] [Sound Library Loader/INFO]: Sound engine started
+[14:08:19] [Client thread/INFO]: Created: 512x512 textures-atlas
+[14:08:22] [Client thread/WARN]: Skipping bad option: lastServer:
+[14:08:24] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[14:08:28] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[14:08:28] [Server thread/INFO]: Generating keypair
+[14:08:29] [Server thread/INFO]: Preparing start region for level 0
+[14:08:31] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:08:32] [Server thread/INFO]: Player82[local:E:6282f2f3] logged in with entity id 134 at (-467.9386228537516, 4.0, -1357.8221865427727)
+[14:08:32] [Server thread/INFO]: Player82 joined the game
+[14:08:34] [Server thread/INFO]: Saving and pausing game...
+[14:08:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:08:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:08:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:08:35] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@5b8945f1[id=7328fbd9-6879-3343-b321-ed1f1a1e9892,name=Player82,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3060) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:131) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[14:08:35] [Server thread/INFO]: Saving and pausing game...
+[14:08:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:08:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:08:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:08:40] [Server thread/INFO]: Player82 has just earned the achievement [Taking Inventory]
+[14:08:40] [Client thread/INFO]: [CHAT] Player82 has just earned the achievement [Taking Inventory]
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:55] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:08:56] [Client thread/INFO]: [CHAT] Walked on block
+[14:09:25] [Server thread/INFO]: Saving and pausing game...
+[14:09:25] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:09:25] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:09:25] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:09:26] [Server thread/INFO]: Stopping server
+[14:09:26] [Server thread/INFO]: Saving players
+[14:09:26] [Server thread/INFO]: Saving worlds
+[14:09:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:09:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:09:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:09:28] [Client thread/INFO]: Stopping!
+[14:09:28] [Client thread/INFO]: SoundSystem shutting down...
+[14:09:28] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

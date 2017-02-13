@@ -66,6 +66,9 @@ public class BlockTutorialBlock extends Block {
         if (worldIn.isRemote) {
             Minecraft.getMinecraft().displayGuiScreen(new GuiInventory(playerIn));
         }
+        else {
+            return false;
+        }
         return true;
     }
 
